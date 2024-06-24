@@ -1,0 +1,23 @@
+/* FirstHead.css */
+
+/* Base styles for navigation links */
+.nav-links .nav-link {
+  margin-left: 29px; 
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  color:#349bc6; /* Default color */
+ 
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Hover effect for navigation links */
+.nav-links .nav-link:hover {
+font-size: 16.1px;
+}
+
+/* Active link styling */
+.nav-links .nav-link.active {
+  color:#349bc6; /* Active color */
+ 
+}

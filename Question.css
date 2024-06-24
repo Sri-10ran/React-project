@@ -1,0 +1,82 @@
+/* General styling for the FAQ section */
+
+/* Styling for the heading */
+
+
+/* Styling for the paragraph below the heading */
+
+
+/* Styling for the horizontal line */
+ hr {
+    border-top: 3px solid #430A5D;
+    margin-bottom: 2rem;
+    width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Styling for the questions */
+.qes p {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #050C9C; /* Blue color for question text */
+    transition: color 0.3s;
+    padding: 10px;
+    font-weight: 640;
+    background-color: #A7E6FF; /* Light blue background for questions */
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Styling for the answers */
+.answer {
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    padding: 0 1rem;
+    background-color:#7071E8; /* White background color for answers */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 0.5rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color:white;
+    font-family: 'DM Sans';
+font-weight: 640;
+    font-size: 17px;
+ 
+}
+
+.answer.show {
+    max-height: 200px; /* Adjust this height based on your content size */
+    padding: 0.5rem 1rem;
+}
+
+.answer.hide {
+    max-height: 0;
+    padding: 0 1rem;
+}
+
+/* Styling for individual question and answer pairs */
+#ans1, #ans2, #ans3, #ans4, #ans5, #ans6, #qes1, #qes2, #qes3, #qes4, #qes5, #qes6 {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 19px;
+}
+.center-justify {
+    display: flex;
+    justify-content: center; /* Centers the paragraph within the container */
+}
+
+.center-justify p {
+    text-align: justify; /* Justifies the text within the paragraph */
+    width: 90%; /* Adjust width to control the justification */
+}

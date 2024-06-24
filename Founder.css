@@ -1,0 +1,47 @@
+/* Founder.css */
+
+.founder-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 17px; /* Space between items */
+}
+
+.founder-image {
+    flex: 1 1 500px; /* Flex-grow, flex-shrink, flex-basis */
+    text-align: center;
+}
+
+.founder-text {
+    flex: 8 600px;
+   
+}
+
+.founder-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem; /* Spacing below image on smaller screens */
+}
+
+.business-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 1rem; /* Space between items */
+}
+
+.business-item {
+    flex: 1 1 200px;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    background-color: #349bc6;
+}
+
+.business-item img {
+    max-width: 100px;
+    margin-bottom: 0.5rem;
+}

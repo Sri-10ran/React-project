@@ -1,0 +1,56 @@
+/* Work.css */
+.details .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.work-col {
+    flex: 1;
+   
+    background-color: #161D6F; /* Default color for first column */
+    padding: 20px;
+    border: 0.7px solid white;
+
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.work-col:nth-child(2) {
+    background-color: #430A5D; /* Color for second column */
+}
+
+.work-col:nth-child(3) {
+    background-color: #C70039; /* Color for third column */
+}
+
+.work-header {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.work-detail {
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .details .row {
+        flex-direction: column;
+    }
+    .work-col {
+        width: 100%;
+        border-right: none;
+        border-bottom: 0.5px solid white;
+    }
+    .work-col:last-child {
+        border-bottom: none;
+    }
+}

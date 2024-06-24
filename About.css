@@ -1,0 +1,28 @@
+/*.about{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-around;
+    width: 89%;
+}
+.rows{
+    display: block;
+}
+.rows p{
+    text-align: center;
+}
+.rows h2{
+    text-align: center;
+}
+    */
+
+    /* Ensure images have a consistent styling if needed */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+i{
+    color: white;
+}
+  
